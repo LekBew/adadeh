@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday ❤️</title>
+
+<link rel="stylesheet" href="surprise1.css">
+
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="d:\Download\surprise\gambar\cantik.jpeg" class="photo">
+
+<h1>🎂 Happy Birthday Sayanggg 🎂</h1>
+
+<p>
+Selamattt ulanggg tahunnn cintakuuu ❤️
+<br><br>
+Semogaaa panjanggg umurrr, sehattt selaluuu,
+semuaaa impiannn sayanggg tercapaiii,
+dannn semogaaa kitaaa selaluuu bersamaaa.
+<br><br>
+Terimaaa kasihhh sudahhh hadirrr diii hidupkuuu.
+Akuuu sayanggg mybabyyy lebihhh dariii kataaa-kataaa
+yanggg bisaaa dijelaskannn.
+💕💕💕
+</p>
+
+<button onclick="showLove()">
+Klik Aku ❤️
+</button>
+
+</div>
+
+<!-- POPUP -->
+
+<div id="popup" class="popup">
+
+<div class="popup-box">
+
+<h2>💖 Untuk Perempuan Tercantik 💖</h2>
+
+<p>
+
+Selamat ulang tahun sayangkuuu ❤️
+<br><br>
+
+maaciii sayanggg selamaaa iniii sudahhhh jadiii pacarrrr yangggg baikkkk cintaakuuu
+
+sayanggg mybabyyy banyakkk banyakkk jangannnn berubahhh yhaaaa sayanggg teteppp jadiiiii pacarkuuu 
+
+semogaaa bertambahnyaaa usiaaa sayangggg iniiii semakinnnn sayangggg akuuu banyakkkk banyakkk xixixi
+
+<br><br>
+
+akuuu bersyukurrr bangettt kenallll dannnn jadiiii pacarrr sayanggkuuuuu 💖
+
+<br><br>
+
+sayanggg ituuu cantikkk.
+
+sayanggg manisss.
+
+sayanggg lucuuu.
+
+sayanggg baikkk hatiii.
+
+sayanggg perhatiannn.
+
+saaynggg penyayanggg.
+
+sayanggg imuttt.
+
+sayanggg pinterrr.
+
+sayanggg selaluuu buattt akuuu merasaaa diii sayanggg terusss.
+
+<br><br>
+
+maaciii sudahhh jadiii rumahhh ternyamannn buatttt akuuuu💖
+
+<br><br>
+
+akuuu bakalll selaluuuu dukunggg mimpiii mybabyyyy
+
+akuuu mauuu sayanggg bahagiaaa teyusss
+
+<br><br>
+
+semogaaa diii umurrr sayanggg sekaranggg
+
+semuaaa doaa doaaa dannn rencana sayanggg terwujudkannn
+
+selaluuu sehattt
+
+panjanggg umurrr
+
+rezekinyaaa lancarrr
+
+semogaaa kitaaa barenggg teyusss sayanggg
+
+<br><br>
+
+maaciiii cudahhhh selaluuuu adaaa buattt akuuu sayanggg
+
+akuuu benerrrr benerrr beruntunggg punyaaa mybabyyyy
+
+<br><br>
+
+akuuu dukungggg semuaaa citaaa citaaa mybabyyyy semangatttt kuliahnyaaa nantiiii sayanggg
+
+❤️❤️❤️
+
+</p>
+
+<button onclick="closePopup()">
+
+🤗 Peluk Virtual
+
+</button>
+
+</div>
+
+</div>
+
+<script>
+
+function showLove(){
+
+document.getElementById("popup").style.display="flex";
+
+}
+
+function closePopup(){
+
+document.getElementById("popup").style.display="none";
+
+}
+
+// Efek hati jatuh
+
+for(let i=0;i<60;i++){
+
+let heart=document.createElement("div");
+
+heart.classList.add("heart");
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.animationDuration=(Math.random()*4+4)+"s";
+
+heart.style.opacity=Math.random();
+
+heart.style.transform="scale("+(Math.random()+0.5)+")";
+
+document.body.appendChild(heart);
+
+}
+
+</script>
+
+</body>
+
+</html>
